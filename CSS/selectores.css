@@ -4,6 +4,10 @@ h1 {
 #Titulo2
    { color: rgb(166, 255, 0);
 }
-.titulartres{
+h3.titulartres{
     color: rgb(240, 21, 21);
+}
+.centrar {
+    background-color: aqua;
+    text-align: center;
 }

@@ -1,0 +1,26 @@
+a:link {
+    color: rgb(9, 255, 0);}
+a:visited {
+    color: rgb(111, 97, 236);}
+a:hover {
+    color: rgb(230, 27, 61);}
+a:active {
+    color: yellow;}
+a.rojo:hover {
+        color: #562bf3;}
+        div {
+            background-color: aquamarine;
+            color: beige;
+            padding: 25px;
+            text-align: center;
+        }
+        div:hover {
+
+
+        }
+        p {
+            display: none;
+            background-color: yellow;
+            padding: 20px;}
+            div:hover p {display: block;
+            }

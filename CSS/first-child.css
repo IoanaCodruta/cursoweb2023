@@ -1,0 +1,10 @@
+
+ p:first-child {
+    color: blue;
+    }
+p i:first-child {
+    color: rgb(102, 255, 0);
+     }
+p:first-child i {
+     color: rgb(245, 113, 190);
+        }
