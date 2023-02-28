@@ -1,0 +1,16 @@
+/avem trei exemple/
+/primul exemplu coicide cu primul p =- deci se coloareaza toata linia p//
+p:first-child {
+    color: blue;
+    }
+
+//al doilea exemplu// se coloreaza doar primele cuvinte care incep cu i, de pe prima linie si a doua linie//
+p i:first-child {
+    color: blue;
+    }
+
+//al treilea exemplu// se coloreaza cuvinteke fuerte de pe prima linie de p//
+
+p:first-child i {
+    color: blue;
+    }

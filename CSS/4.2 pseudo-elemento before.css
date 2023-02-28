@@ -1,0 +1,6 @@
+p::before {
+    content: "Prefijo -";
+    background-color: yellow;
+    color:red;
+    font-weight: bold;
+}

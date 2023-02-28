@@ -1,0 +1,10 @@
+p::after {
+    content: "-Sufijo";
+    background-color: yellow;
+    color: red;
+    font-weight: bold;
+}
+
+/* p::after {
+    content: url(../IMG/check.png);
+} /*
