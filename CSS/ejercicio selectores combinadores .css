@@ -1,0 +1,13 @@
+div h1 {
+    background-color: royalblue;
+    text-align: center;
+}
+div > p {
+    background-color: rgb(71, 176, 218);
+}
+div + p {
+    background-color: bisque;
+}
+div ~h2 {
+    background-color: blueviolet;
+}
