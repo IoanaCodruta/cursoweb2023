@@ -1,0 +1,21 @@
+h1 {
+    color: blue;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-style: italic; 
+    text-align: center;
+    line-height: 70px;
+    letter-spacing: normal;
+}
+p {
+    color: chocolate;
+    font-size: 50 px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: Black 900 Italic;
+    text-shadow: 1px 1px 1px #0a1620;
+}
+.negrita {
+    font-weight: bolder;
+    color: rgb(96, 230, 163);
+}
