@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flex Items FLEX GROW</title>
+    <title>Flex Items FLEX BASIS</title>
     <style>
       .flex-container {
         display: flex;
         align-items: stretch;
-        background-color: #f1f1f1;
+        background-color: red;
       }
       .flex-container > div {
-        background-color: DodgerBlue;
+        background-color: blue;
         color: white;
         width: 100px;
         margin: 10px;
@@ -24,9 +24,12 @@
 </head>
 <body>
     <div class="flex-container">
-        <div style="flex-grow: 1">1</div>
-        <div style="flex-grow: 6">2</div>
-        <div style="flex-grow: 1">4</div>
-    </div>
+        <div>1</div>
+        <div>2</div>
+        <div style="flex-basis:300px">3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+      </div>
 </body>
 </html>
