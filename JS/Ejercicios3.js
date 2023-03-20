@@ -1,2 +1,2 @@
-var temp = "Frio";
-document.getElementById("temp").innerHTML = CMS;
+var temperatura = "Frio";
+document.getElementById("temp").innerHTML = temperatura;
