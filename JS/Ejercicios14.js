@@ -1,1 +1,1 @@
-document.getElementById("demo").innerHTML = "Nos gusta /'WordPress'/.";
+document.getElementById("demo").innerHTML = "Nos gusta \"WordPress\" .";
