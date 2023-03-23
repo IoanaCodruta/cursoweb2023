@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <title>Document</title>
+      <style>
+        .droptarget {
+          float: left; 
+          width: 100px; 
+          height: 35px;
+          margin: 15px;
+          padding: 10px;
+          border: 1px solid #aaaaaa;
+        }
+        </style>
+</head>
+<body>
+    <p>Drag the p element back and forth between the two rectangles:</p>
+
+<div class="droptarget" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <p ondragstart="dragStart(event)" ondrag="dragging(event)" draggable="true" id="dragtarget">Elementos</p>
+</div>
+
+<div class="droptarget" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+<p style="clear:both;" id="demo"></p>
+<script src="../JS/13.5.1 Create drag-drop-eventos-javascript.js"></script>
+</body>
+</html>
