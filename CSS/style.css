@@ -1,0 +1,22 @@
+ /* Definimos un estilo CSS para nuestros contenedores */
+.container mt-5 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .col-sm-4 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  /* Estilos para botones  */
+  .button {
+    color: #fff;
+    background-color: #cc2e2e;
+  }
